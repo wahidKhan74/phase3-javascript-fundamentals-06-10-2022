@@ -1,10 +1,12 @@
 // 1. A JavaScript function is a block of code designed to perform a particular task.
 // 2. A JavaScript function is executed when "something" invokes it (calls it).
 // 3. Functions are one of the fundamental building blocks in JavaScript. 
-
+// 4. function decleration is hoisted.
 
 // function decleration  or function definition
 // syntax : function functionName(prameters) {  // body   }
+
+showMessage();
 
 //1. Non parametrised function
 function showMessage(){
@@ -24,10 +26,10 @@ function fetchUser(name,age,gender) {
  }
 
 
-fetchUser();
-fetchUser("John");
-fetchUser("John",50);
-fetchUser("John", 50, "male");
+// fetchUser();
+// fetchUser("John");
+// fetchUser("John",50);
+// fetchUser("John", 50, "male");
 
 // Default Prametrised function
 function getInfo(username="user", phone=10101010, email="user@gmail.com") {
@@ -36,10 +38,10 @@ function getInfo(username="user", phone=10101010, email="user@gmail.com") {
     and email : ${email}`);
 }
 
-getInfo();
-getInfo("John Snow");
-getInfo("John Snow",534545656);
-getInfo("John Snow",534545656, "john.snow@gmail.com");
+// getInfo();
+// getInfo("John Snow");
+// getInfo("John Snow",534545656);
+// getInfo("John Snow",534545656, "john.snow@gmail.com");
 
 // function calling
 // showMessage();
